@@ -1,0 +1,19 @@
+.Con{
+    overflow: hidden;
+} 
+ .Con img:hover{
+    transform: scale(1.1 ,1.1);
+    transition: 1s;
+
+}
+
+.btn2{
+    overflow: hidden;
+}
+.btn2:hover{
+    background-color:black ;
+color: white;
+cursor:pointer;
+transform: scale(1.1 ,1.1);
+transition: 1s;
+}

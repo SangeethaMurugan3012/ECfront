@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Nav from "./Component/Header1.jsx/Nav";
+import Carous from "./Component/Carousel/Carous";
+import Footer from "./Component/Threelayer1/Footer.jsx/Footer";
+import { Route, Routes } from "react-router-dom";
+import Registerpage from "./Component/Header1.jsx/Registerpage";
+import LoginPage from "./Component/Header1.jsx/LoginPage";
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav />
+      <Routes>
+        <Route path="/" Component={Carous} />
+        <Route path="/register" Component={Registerpage} />
+        <Route path="/login" Component={LoginPage} />
+      </Routes>
+      <Footer />
+
     </div>
   );
 }

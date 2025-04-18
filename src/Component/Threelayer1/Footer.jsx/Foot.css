@@ -1,0 +1,24 @@
+.img1{
+    overflow: hidden;
+}
+.img1:hover{
+    cursor:pointer;
+transform: scale(1.2 ,1.2);
+transition: 1s;
+
+}
+
+.btn4{
+    overflow: hidden;
+}
+.btn4:hover{
+    cursor:pointer;
+transform: scale(1.2 ,1.2);
+transition: 1s;
+}
+
+.under:hover{
+   text-decoration-line: underline;
+   cursor: pointer;
+
+}
