@@ -10,9 +10,7 @@ import Slider from "react-slick";
 import Map from '../Crd/Map'
 
 function Resizable() {
-    // const [display, setDisplay] = useState(true);
-    // const [width, setWidth] = useState(600);
-
+   
     const settings = {
         dots: true,
         infinite: true,

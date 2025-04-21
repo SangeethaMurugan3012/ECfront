@@ -25,9 +25,9 @@ function Card() {
 
     responsive: [
             {
-                breakpoint: 1200, // Large screens (desktop)
+                breakpoint: 1200, 
                 settings: {
-                    slidesToShow: 3, // 3 slides for large screens
+                    slidesToShow: 3, 
                     slidesToScroll: 1,
                 }
             },

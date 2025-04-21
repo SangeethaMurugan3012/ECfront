@@ -9,8 +9,6 @@ import img7 from './logo-4.webp'
 import img8 from './logo-5.webp'
 import img9 from './logo-6.webp'
 import '../Styles/Cards.css'
-
-
 import img10 from './lookbook-1-min_42fd8f57-f056-4b9b-8d30-613a9bcab508.jpg'
 import img11 from './lookbook-2-min_4706a63c-4510-4b71-bf8a-d00ee9f7a0e8.jpg'
 import Threeleyar from '../../Threelayer/Threeleyar'

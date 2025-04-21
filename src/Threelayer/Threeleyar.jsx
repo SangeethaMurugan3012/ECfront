@@ -18,7 +18,7 @@ export default function Threeleyar() {
             <h5>Minimog Store</h5>
             <h1 className='mt-lg-3'>Living out every single day and <br /> be brave to show off your own true colors</h1>
             <p claasName='mt-lg-5'>Our new cozy collection is made with environmentally friendly materials and simple to <br /> care for so you can stay cozy wherever .</p>
-            <a className='mt-lg-5  link-underline' href="#">Shop Collection</a>
+            <a className='mt-lg-5  link-underline' href="abc">Shop Collection</a>
 
         </div>
 
@@ -69,7 +69,7 @@ export default function Threeleyar() {
    <div className=' mt-lg-5 text-center '>
     <h3 classname='text-center'>Follow us Instagram</h3>
     <p className=' text-center'>Tag @minimog in your Instagram photos for a chance to be featured here.<br/>
-    Find more inspiration on <a classname="link-underline" href=""> our Instagram.</a></p>
+    Find more inspiration on <a classname="link-underline" href="abc"> our Instagram.</a></p>
    </div>
    <Three/>
     </div>

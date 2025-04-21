@@ -36,11 +36,11 @@ export default function LoginPage() {
 
                 <div className='col-5 border border-4 border-primary rounded rounded-3 p-3' style={{marginTop : "100px"}}>
 
-                    <div class="">
+                    <div >
                         <label for="user" class="col-form-label">UserName</label>
                         <input type="text" class="form-control" name="username" value={uname} onChange={(e) => setUname(e.target.value)} id="user"></input>
                     </div>
-                    <div class="">
+                    <div >
                         <label for="pass" class="col-form-label">Password</label>
                         <input type="password" class="form-control" name="password" value={pass} onChange={(e) => setPass(e.target.value)} id="pass"></input>
                     </div>

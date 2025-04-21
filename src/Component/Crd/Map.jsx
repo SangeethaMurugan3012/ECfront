@@ -5,7 +5,7 @@ export default function Map() {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:3700/cardData/get')  // Corrected path
+        axios.get('http://localhost:3700/cardData/get')  
             .then((res) => {
                 setData(res.data);
             })
@@ -33,7 +33,7 @@ return (
           </div>
         ))}
       </div>
-      {/* <Registerpage/> */}
+   
     </div>
   );
   

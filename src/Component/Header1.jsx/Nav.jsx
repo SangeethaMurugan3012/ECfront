@@ -43,7 +43,7 @@ export default function Nav() {
                 </li>
               </ul>
               <form class="d-flex mt-2  " style={{ marginLeft: "140px", gap: "10px" }} role="search">
-                <a class="nav-link active mx-lg-3 icon" aria-current="page" href="e"><BsSearch /></a>
+                <a class="nav-link active mx-lg-3 icon" aria-current="page" href="egt"><BsSearch /></a>
 
 
 
