@@ -7,7 +7,7 @@ import img5 from './ins-main-3.jpg'
 import'../Threelayer1/Leyar.css'
 import React from "react";
 import Slider from "react-slick";
-import Map from '../Crd/Map'
+import AllProduct from '../Crd/Map'
 
 function Resizable() {
    
@@ -38,7 +38,7 @@ function Resizable() {
                 </div>
                 
             </Slider>
-            <Map/>
+            <AllProduct/>
         </div>
       
     
