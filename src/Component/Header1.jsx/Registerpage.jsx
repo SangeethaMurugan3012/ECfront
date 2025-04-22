@@ -16,7 +16,7 @@ export default function Registerpage() {
 
     const sendData = (e) => {
         e.preventDefault();
-        axios.post("http://localhost:3700/registerdatas/post", formData)
+        axios.post("https://ecbackend-rg8w.onrender.com/registerdatas/post", formData)
         alert("data Posted")
         setFormData.name("")
         setFormData.username("")

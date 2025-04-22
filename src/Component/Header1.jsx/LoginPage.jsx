@@ -9,7 +9,7 @@ export default function LoginPage() {
     const Navi = useNavigate()
 
     useEffect(() => {
-        axios.get('http://localhost:3700/registerdatas/get')
+        axios.get('https://ecbackend-rg8w.onrender.com/registerdatas/get')
        
             .then((res) => {
                 setDatas(res.data)

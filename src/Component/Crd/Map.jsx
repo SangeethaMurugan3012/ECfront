@@ -5,7 +5,7 @@ export default function Map() {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:3700/cardData/get')  
+        axios.get('https://ecbackend-rg8w.onrender.com/cardData/get')  
             .then((res) => {
                 setData(res.data);
             })
