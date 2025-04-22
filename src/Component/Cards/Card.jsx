@@ -65,7 +65,7 @@ function Card() {
 
                 <div className="col">
                     <div className="card   mt-lg-5 mb-lg-5" style={{ width: "15rem" }}>
-                        <img src={img1} className="card-img-top" alt="..." />
+                        <img src={img1} className="card-img-top" alt="" />
                         <div className="card-body ">
                             <div className="d-flex">
                                 <h5 className="card-title mt-2 ms-4">Glasses <br /><small> 6 items</small></h5>
@@ -79,7 +79,7 @@ function Card() {
                 </div>
                 <div className="col">
                     <div className="card  mt-lg-5 mb-lg-5" style={{ width: "15rem" }}>
-                        <img src={img2} className="card-img-top" alt="..." />
+                        <img src={img2} className="card-img-top" alt="" />
                         <div className="card-body ">
                             <div className="d-flex">
                                 <h5 className="card-title mt-2">Knit Wears <br /><small> 19 items</small></h5>
@@ -92,7 +92,7 @@ function Card() {
                 </div>
                 <div className="col">
                     <div class="card  mt-lg-5  mb-lg-5" style={{ width: "15rem" }}>
-                        <img src={img3} className="card-img-top  " alt="..." />
+                        <img src={img3} className="card-img-top  " alt="" />
                         <div className="card-body ">
                             <div className="d-flex">
                                 <h5 className="card-title mt-2">Bags <br /><small> 32 items</small></h5>
@@ -105,7 +105,7 @@ function Card() {
                 </div>
                 <div className="col">
                     <div className="card  mt-lg-5 mb-lg-5" style={{ width: "15rem" }}>
-                        <img src={img4} className="card-img-top" alt="..." />
+                        <img src={img4} className="card-img-top" alt="" />
                         <div className="card-body ">
                             <div className="d-flex">
                                 <h5 className="card-title mt-2">Sneakers <br /><small> 6 items</small></h5>
@@ -118,7 +118,7 @@ function Card() {
                 </div>
                 <div className="col">
                     <div className="card  mt-lg-5 mb-lg-5" style={{ width: "15rem" }}>
-                        <img src={img5} className="card-img-top" alt="..." />
+                        <img src={img5} className="card-img-top" alt="" />
                         <div className="card-body ">
                             <div className="d-flex">
                                 <h5 className="card-title mt-2">Assesaries<br /><small> 8 item</small></h5>

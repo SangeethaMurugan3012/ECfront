@@ -22,7 +22,7 @@ export default function Threeleyar() {
 
         </div>
 
-        <div className=''>
+        <div>
             <div className='row Con mt-lg-5 p-lg-0 mb-lg-5 '>
               <img  className=' h-25 w-10 col-xs-12 col-sm-6 col-md-4 col-lg-2' src={img1} alt="" />
               <img className='  h-25 w-10 col-xs-12 col-sm-6 col-md-4 col-lg-2' src={img2} alt="" />
@@ -36,23 +36,23 @@ export default function Threeleyar() {
 
   <div className='row'>
     <div className='col-12  col-sm-12 col-md-6 col-lg-6'>
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner mt-lg-5 mb-lg-5">
-    <div class="carousel-item active" data-bs-interval="3000">
-      <img src={img7} class="d-block w-100" alt="..."/>
+    <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
+  <div className="carousel-inner mt-lg-5 mb-lg-5">
+    <div className="carousel-item active" data-bs-interval="3000">
+      <img src={img7} className="d-block w-100" alt="..."/>
     </div>
-    <div class="carousel-item" data-bs-interval="3000">
-      <img src={img8} class="d-block w-100" alt="..."/>
+    <div className="carousel-item" data-bs-interval="3000">
+      <img src={img8} className="d-block w-100" alt="..."/>
     </div>
    
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
+  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
+  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Next</span>
   </button>
 </div>
     </div>
@@ -69,8 +69,8 @@ export default function Threeleyar() {
    <div className=' mt-lg-5 text-center '>
     <h3 classname='text-center'>Follow us Instagram</h3>
     <p className=' text-center'>Tag @minimog in your Instagram photos for a chance to be featured here.<br/>
-    Find more inspiration on <a classname="link-underline" href="abc"> our Instagram.</a></p>
-   </div>
+    Find more inspiration on <a className="link-underline" href="abc"> our Instagram.</a></p>
+   </div>Name
    <Three/>
     </div>
   )

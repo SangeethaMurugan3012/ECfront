@@ -41,28 +41,28 @@ export default function Registerpage() {
                 <form className='border border-4 border-primary rounded rounded-3 p-3 col-5' action="" onSubmit={sendData} style={{marginTop:"70px"}}>
                     <h1>Register</h1>
                     <div>
-                        <label for="name" class="col-form-label">Name</label>
-                        <input type="text" class="form-control" name="name" value={formData.name} onChange={handleChange} id="name" />
+                        <label for="name" className="col-form-label">Name</label>
+                        <input type="text" className="form-control" name="name" value={formData.name} onChange={handleChange} id="name" />
                     </div>
                     <div>
-                        <label for="user" class="col-form-label">UserName</label>
-                        <input type="text" class="form-control" name="username" value={formData.username} onChange={handleChange} id="user"></input>
+                        <label for="user" clasNamesName="col-form-label">UserName</label>
+                        <input type="text" className="form-control" name="username" value={formData.username} onChange={handleChange} id="user"></input>
                     </div>
                     <div>
-                        <label for="email" class="col-form-label">Email</label>
-                        <input type="email" class="form-control" name="email" value={formData.email} onChange={handleChange} id="email"></input>
+                        <label for="email" className="col-form-label">Email</label>
+                        <input type="email" className="form-control" name="email" value={formData.email} onChange={handleChange} id="email"></input>
                     </div>
                     <div>
-                        <label for="pass" class="col-form-label">Password</label>
-                        <input type="password" class="form-control" name="password" value={formData.password} onChange={handleChange} id="pass"></input>
+                        <label for="pass" className="col-form-label">Password</label>
+                        <input type="password" className="form-control" name="password" value={formData.password} onChange={handleChange} id="pass"></input>
                     </div>
                     <div>
-                        <label for="number" class="col-form-label">Contact</label>
-                        <input type="number" class="form-control" name="contact" value={formData.contact} onChange={handleChange} id="number"></input>
+                        <label for="number" className="col-form-label">Contact</label>
+                        <input type="number" className="form-control" name="contact" value={formData.contact} onChange={handleChange} id="number"></input>
                     </div>
-                    <div class="modal-footer justify-content-around">
+                    <div className="modal-footer justify-content-around">
                        
-                        <button type="submit" class="btn btn-primary  h-25 mt-3" >Register</button>
+                        <button type="submit" className="btn btn-primary  h-25 mt-3" >Register</button>
 
                         <h4>Already Have Account <Link to={'/login'}>Login</Link></h4>
                     </div>

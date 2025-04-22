@@ -20,62 +20,62 @@ export default function Imgpara() {
         <div className='container-fluid'>
             <div className='d-flex row mt-lg-5'>
 
-                <div class="accordion accordion-flush col-lg-6 col-md-6 col-sm-12" id="accordionFlushExample">
-                    <div class="accordion-item my-lg-3">
+                <div className="accordion accordion-flush col-lg-6 col-md-6 col-sm-12" id="accordionFlushExample">
+                    <div className="accordion-item my-lg-3">
                         <p className='my-lg-3'>Hot This Week</p>
                         <h1 className='my-lg-5' >Beautifully functional <br />consciously crafted</h1>
-                        <h2 class="accordion-header pb-lg-5">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <h2 className="accordion-header pb-lg-5">
+                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                                 <h4>01. Sweaters & Cardigans</h4>
                             </button>
                         </h2>
-                        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">This snuggly soft cloud Relaxed cardigian serves a relaxed fit, with saddle <br />shoulders ---where the armhole seams curve towards the necline so that <br />the sleeve seamlessly hugs your shoulder</div>
+                        <div id="flush-collapseOne" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div className="accordion-body">This snuggly soft cloud Relaxed cardigian serves a relaxed fit, with saddle <br />shoulders ---where the armhole seams curve towards the necline so that <br />the sleeve seamlessly hugs your shoulder</div>
                         </div>
                     </div>
-                    <div class="accordion-item pb-lg-5">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    <div className="accordion-item pb-lg-5">
+                        <h2 clasNames="accordion-header">
+                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                                 <h4>02. The Bomber Jackets </h4>
                             </button>
                         </h2>
-                        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">This snuggly soft cloud Relaxed cardigian serves a relaxed fit, with saddle <br />shoulders ---where the armhole seams curve towards the necline so that <br />the sleeve seamlessly hugs your shoulder</div>
+                        <div id="flush-collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div className="accordion-body">This snuggly soft cloud Relaxed cardigian serves a relaxed fit, with saddle <br />shoulders ---where the armhole seams curve towards the necline so that <br />the sleeve seamlessly hugs your shoulder</div>
                         </div>
                     </div>
-                    <div class="accordion-item pb-lg-5">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    <div className="accordion-item pb-lg-5">
+                        <h2 className="accordion-header">
+                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                                 <h4>03. Carduroy Shirts</h4>
                             </button>
                         </h2>
-                        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">This snuggly soft cloud Relaxed cardigian serves a relaxed fit, with saddle <br />shoulders ---where the armhole seams curve towards the necline so that <br />the sleeve seamlessly hugs your shoulder</div>
+                        <div id="flush-collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div className="accordion-body">This snuggly soft cloud Relaxed cardigian serves a relaxed fit, with saddle <br />shoulders ---where the armhole seams curve towards the necline so that <br />the sleeve seamlessly hugs your shoulder</div>
                         </div>
                     </div>
                 </div>
 
 
                 <div className=' col-lg-6 col-md-6 col-sm-12 '>
-                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="2000">
-                                <img src={img1} class="d-block w-100" alt="..." />
+                    <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
+                        <div className="carousel-inner">
+                            <div className="carousel-item active" data-bs-interval="2000">
+                                <img src={img1} className="d-block w-100" alt="..." />
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img src={img2} class="d-block w-100" alt="..." />
+                            <div className="carousel-item" data-bs-interval="2000">
+                                <img src={img2} className="d-block w-100" alt="..." />
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img src={img3} class="d-block w-100" alt="..." />
+                            <div className="carousel-item" data-bs-interval="2000">
+                                <img src={img3} className="d-block w-100" alt="..." />
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
+                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
+                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Next</span>
                         </button>
                     </div>
                 </div>
