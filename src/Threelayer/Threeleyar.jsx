@@ -10,7 +10,6 @@ import img8 from './after-image-min.jpg'
 import '../Threelayer/Three.css'
 import Three from '../Component/Threelayer1/Three';
 
-
 export default function Threeleyar() {
   return (
     <div className='container-fluid'>
