@@ -12,7 +12,7 @@ export default function Map() {
             .catch((error) => {
                 console.error('Error fetching data:', error);
             });
-    }, []);
+    }, [data]);
 
 
 
